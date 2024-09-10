@@ -1,0 +1,21 @@
+Findings:
+• Age Distribution: Most players fall within the mid-20s, with an average age of 25, 
+and a minority of players are older than 35.
+• Player Ratings: Most of the player ratings range between 60 and 80, with very few 
+reaching above 90, indicating that exceptional players are rare.
+• Representation by Nationality: Spain, Germany, and Brazil are the most 
+represented countries in the dataset.
+• Age and Rating Correlation: Younger players often have higher potential but tend 
+to have lower current ratings compared to older players.
+• Wages by Club: Clubs like Barcelona and Real Madrid offer significantly higher 
+wages compared to other teams, reflecting their top-tier status.
+• Position and Physical Attributes: Defenders are generally taller than players in 
+other positions, likely due to the physical demands of their role.
+• Missing Data Handling: Missing data was handled by filling in values using the 
+median or mode to ensure data completeness and accuracy.
+• Outlier Management: Outliers in wage and value were addressed to reduce their 
+impact on the analysis.
+• Categorical Features: Categorical variables such as position and foot preference 
+were converted into binary features for better model performance.
+• Data Partitioning: The dataset was split into training and testing sets to facilitate 
+reliable model evaluation
